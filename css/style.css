@@ -1,0 +1,87 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1920px;
+	height: 4943px;
+	background: blue;
+	margin: 0 auto;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header{
+	width: 1920px;
+	height: 155px;
+	background: #12DDE7;
+}
+.logo{
+	width: 70px;
+	height: 155px;
+	background: #05198B;
+	float: left;
+}
+nav{
+	width: 1100px;
+	height: 155px;
+	background: #129632;
+	float: right;
+}
+.content{
+	width: 1920px;
+	height: 4280px;
+	background: #D4FF13;
+}
+.banner{
+	width: 1920px;
+	height: 1000px;
+	background: #378BC8;
+}
+.concepts{
+	width: 1920px;
+	height: 1848px;
+	background: #41009E;
+	display: inline-block;
+}
+.concepts-gallery{
+	width: 1170px;
+	height: 1445px;
+	background: #D7E041;
+	display: flex;
+	flex-wrap: wrap;
+/*	flex-direction: column;*/
+}
+.box-img-1{
+	width: 370px;
+	height: 405px;
+	background: #686868;
+	margin-bottom: 50px;
+}
+.box-img{
+	width: 370px;
+	height: 1445px;
+	background: #686868;
+	margin-bottom: 50px;
+/*	margin-left: 30px;*/
+}
+.box-center{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.concepts h1{
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 62px;
+	margin-bottom: 62px;
+}
+footer{
+	width: 1920px;
+	height: 664px;
+	background: blue;
+}
+
